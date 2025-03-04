@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.price-section-wrapper {
+    width: 1280px;
+    height: 863.5px;
+    margin-left:1px;
+    margin-right: 1px;
+}
+
+.price-container{
+    width:772px;
+    height: 684px;
+    background-color: aqua;
+    margin: 58px 255px 121.5px 255px;
+    text-align: center;
+}
+
+.price-container-header-phrase{
+    margin-top: 0px;
+    margin-bottom: 25px; 
+
+}
+.price-container-separation-line {
+    width: 40px;
+    margin-top:0px;
+    margin-bottom:17px;
+    padding: 0px;
+}
+
+.price-container-invitation-phrase{
+    margin-top:0px;
+    margin-bottom: 70px;
+}
+
+.price-cards-container{
+    margin:0px;
+    padding:0px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* First price card */
+.first-price-card-container {
+    width:372px;
+    height: 541px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin:0px 28px 0px 0px;
+    padding:0px;
+    display: flex;
+}
+
+.first-price-card {
+    width:370px;
+    height:517px;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.first-price-card-header{
+    width: 100%;
+    height: 60px;
+    background-color: #3F72AF;
+      
+}
+.first-butt-choose, .second-butt-choose {
+    width: 202px;
+    height: 52px;
+    
+}
+
+/* Second price card */
+.second-price-card-container {
+    width:372px;
+    height: 541px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin:0px 0px 0px 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.second-price-card {
+    width:370px;
+    height:517px;
+    background-color: white;
+    
+}
+
+.second-price-card-header{
+    width: 370px;
+    height: 60px;
+   
+    background-color: #112D4E;
+}
