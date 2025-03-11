@@ -8,32 +8,53 @@ body {
     height: 863.5px;
     margin-left:1px;
     margin-right: 1px;
-    
+    border:1px solid black;    
 }
 
 .price-container{
     width:772px;
     height: 684px;
-    background-color: aqua;
+    background-color:white;
     margin: 58px 255px 121.5px 255px;
     text-align: center;
+    border:1px solid green;
 }
 
 .price-container-header-phrase{
     margin-top: 0px;
-    margin-bottom: 25px; 
-
+    margin-bottom: 21px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 34px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding:0;
 }
+
 .price-container-separation-line {
     width: 40px;
     margin-top:0px;
     margin-bottom:17px;
     padding: 0px;
+    height: 1px;
+    background-color: #3F72AF;
+    border: none;
 }
 
 .price-container-invitation-phrase{
     margin-top:0px;
     margin-bottom: 70px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;  
+
 }
 
 .price-cards-container{
@@ -46,6 +67,17 @@ body {
    
 }
 
+.card-header-text{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 25px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    margin: 0px;
+}
+
 /* First price card */
 .first-price-card-container {
     width:372px;
@@ -55,7 +87,7 @@ body {
     margin:0px 28px 0px 0px;
     padding:0px;
     display: flex;
-    
+    position:relative;
 }
 
 .first-price-card {
@@ -74,12 +106,15 @@ body {
     height: 60px;
     margin-top: 30px;
     background-color: #3F72AF;
-      
+    text-align:center;
+       
 }
 .first-butt-choose, .second-butt-choose {
     width: 202px;
     height: 52px;
-    
+    position:absolute;
+    bottom:0px;
+    left: 80px;
 }
 
 /* Second price card */
@@ -91,6 +126,7 @@ body {
     margin:0px 0px 0px 0px;
     padding: 0px;
     display: flex;
+    position:relative;
 }
 
 .second-price-card {
