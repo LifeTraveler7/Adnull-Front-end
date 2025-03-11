@@ -3,5 +3,33 @@
     height: 344px;
     background-color: #F9F7F7;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding:0px;
+}
+.partners-title-text {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 35px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0%;
+   padding:0px;
+   margin-top: 73px;
+   margin-bottom:35px;
+    }
 
+.partners-title-slogan {
+    font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+leading-trim: Cap height;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-top: 0px;
+margin-bottom: 61px;
 }
