@@ -1,0 +1,28 @@
+.price-card-wrapper{
+    width: 372px;
+    height: 541px;
+    position: relative;
+    border: 1px black dotted;
+}
+.price-card{
+    width: 370px;
+    height:517px;
+    border: 1px aqua solid;
+}
+
+.card-header{
+    width: 100%;
+    height: 60px;
+    background-color: #3F72AF;
+    border: 1px #3F72AF solid;
+    margin-top: 30px;
+}
+.butt-choose{
+    width:202px;
+    height: 52px;
+    position:absolute;
+    bottom:0px;
+    left: 79px;
+
+
+}

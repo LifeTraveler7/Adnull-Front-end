@@ -21,12 +21,11 @@ body {
 }
 
 .price-container-header-phrase{
-    margin-top: 0px;
+    margin-top: -7px;
     margin-bottom: 21px;
     font-family: Playfair Display;
     font-weight: 400;
     font-size: 34px;
-    leading-trim: Cap height;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
@@ -36,7 +35,7 @@ body {
 .price-container-separation-line {
     width: 40px;
     margin-top:0px;
-    margin-bottom:17px;
+    margin-bottom:13px;
     padding: 0px;
     height: 1px;
     background-color: #3F72AF;
@@ -46,10 +45,10 @@ body {
 .price-container-invitation-phrase{
     margin-top:0px;
     margin-bottom: 70px;
+  
     font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
-    leading-trim: Cap height;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
@@ -71,7 +70,6 @@ body {
     font-family: Roboto;
     font-weight: 500;
     font-size: 25px;
-    leading-trim: Cap height;
     line-height: 100%;
     letter-spacing: 0%;
     color: white;
